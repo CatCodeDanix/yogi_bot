@@ -1,0 +1,28 @@
+{
+  "name": "iums-meal-mate-bot",
+  "version": "1.0.0",
+  "description": "Simplify your dining at IUMS with easy meal reservations and timely food notifications. Your go-to for hassle-free university dining.",
+  "main": "functions/bot.js",
+  "scripts": {
+    "start": "nodemon src/bot.ts",
+    "tsc": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Danial Abdoli",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.25",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@tma.js/init-data-node": "^1.1.13",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "grammy": "^1.21.1",
+    "mongodb": "^6.4.0",
+    "serverless-http": "^3.2.0"
+  }
+}
